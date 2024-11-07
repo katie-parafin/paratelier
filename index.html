@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paratelier</title>
+    <style>
+      @font-face {
+        font-family: "BemirsDemoVersion";
+        src:
+          url("/public/fonts/BemirsDemoVersionRegular-L360Z.ttf")
+            format("truetype"),
+          url("/public/fonts/BemirsDemoVersionRegular-X361d.otf")
+            format("opentype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      /* Apply the font globally */
+      body,
+      html {
+        margin: 0;
+        font-family: "BemirsDemoVersion", sans-serif; /* Use the custom font */
+        background-color: #f8f8f8;
+      }
+      a:-webkit-any-link {
+        color: unset;
+        text-decoration: unset;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
