@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Bemirs;
+  src: url(/BemirsDemoVersionRegular-L360Z-Cq8NVnDY.ttf) format("truetype"),
+    url(/BemirsDemoVersionRegular-X361d-c7RvxNn5.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: BemirsDemoVersion, sans-serif;
+}
